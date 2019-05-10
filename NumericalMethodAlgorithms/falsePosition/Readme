@@ -1,0 +1,14 @@
+The falsePosition function is a function that uses the false position root finding method to find the real roots of a function. This function must have an inputed function in the form of func = @(x) function.
+
+Inputs:
+func = Function that has roots.
+xl = Lower bound guess determined by user. (Cannot be same sign as xu)
+xu = Upper bound guess determined by user.
+es = Desired relative error. (Defaults to 0.0001%)
+maxiter = Maimum iterations. (Deafults to 200 iterations)
+
+Outputs:
+Root = The estimated root location.
+fx = The function evaluated at the root location.
+ea = The approximate relative error (%).
+iter = Number of iterations performed.
