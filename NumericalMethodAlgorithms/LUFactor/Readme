@@ -1,7 +1,10 @@
 LUFactor Algorithm
+
 The function luFactor creates an upper, lower, and pivot matrix by performing LU decomposition on a coefficient matrix. 
+
 Inputs: 
 A - Coefficient matrix
+
 Outputs: 
 L - Lower triangular matrix
 U - Upper triangular matrix
