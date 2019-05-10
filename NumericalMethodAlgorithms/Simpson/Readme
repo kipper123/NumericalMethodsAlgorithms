@@ -1,0 +1,8 @@
+The Simpson function is a function that uses Simpson's 1/3 rule to integrate experimental data.
+
+Inputs:
+x: Values that will be plugged into the function y.
+y: Values of a function y, calculated by using x values. Y must beinputed by using y = @(x).
+
+Outputs:
+I: The value of the integral of the function.
